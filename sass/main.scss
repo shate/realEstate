@@ -1,0 +1,24 @@
+$ico-layout:smart;
+@import "ico/*.png";            
+@include all-ico-sprites;
+
+
+@import 'base/reset';
+
+@import 'utils/variables';
+@import 'layout/grid';
+@import 'utils/mixins';
+@import 'base/typography';
+@import 'base/base';
+
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/sidebar';
+@import 'layout/forms';
+
+@import 'components/buttons';
+@import 'components/slick';
+@import 'components/ui-slider';
+
+

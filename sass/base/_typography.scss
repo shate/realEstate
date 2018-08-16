@@ -1,0 +1,66 @@
+@include font-face("robotoslabbold", font-files("robotoslabbold.ttf", "robotoslabbold.eot","robotoslabbold.woff","robotoslabbold.woff2"));
+@include font-face("pfdintextpro-light", font-files("pfdintextpro-light.ttf", "pfdintextpro-light.eot","pfdintextpro-light.woff","pfdintextpro-light.woff2"));
+@include font-face("robotoslabregular", font-files("robotoslabregular.ttf", "robotoslabregular.eot","robotoslabregular.woff","robotoslabregular.woff2"));
+@include font-face("robotoslablight", font-files("robotoslablight.ttf", "robotoslablight.eot","robotoslablight.woff","robotoslablight.woff2"));
+@include establish-baseline;
+body{
+	font-family: $base-font;	
+	color: $base-font-color;
+	font-size: $base-font-size;		
+	background-color: $bgc;
+}
+
+h2{
+	font-family: "robotoslablight";
+	font-size: 24px;
+	text-align: center;
+	margin: 23px 0;
+	
+}
+h3{
+	font-size: 16px;
+	color: $darck-gray;
+}
+
+h5{
+	font-family: "robotoslabbold";
+	color: $darck-gray;
+	font-size: 15px;
+	text-align: center;
+}
+
+a{
+	color: $base-font-color;
+	text-decoration: none;
+}
+b{
+	font-family: "robotoslabbold";
+}
+.ttu{
+	text-transform: uppercase;
+	 letter-spacing: 0.04em;
+}
+.fwn{
+	font-family: "robotoslabregular";
+}
+.tac{
+	text-align: center;
+}
+p.light-gray{
+	font-size: 11px;
+	color: $light-gray2;
+}
+p{
+	line-height: 22px;
+	margin-bottom: 10px;
+}
+.mt{
+	margin-top: 30px;
+    margin-bottom: 25px;
+}
+.pb0{
+	padding-bottom: 0 !important;
+}
+.mb65{
+	margin-bottom: 65px;
+}

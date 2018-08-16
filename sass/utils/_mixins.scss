@@ -1,0 +1,12 @@
+@mixin ico($pic){
+
+     @include ico-sprite($pic);
+     width: ico-sprite-width($pic);
+     height: ico-sprite-height($pic); 
+    
+	}
+@mixin psevdo{
+	content: '';
+	position: absolute;
+}
+	
